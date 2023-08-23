@@ -6,21 +6,13 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { getReactNativePersistence, initializeAuth } from 'firebase/auth/react-native';
 const firebaseConfig = {
 
-    apiKey: "AIzaSyBletlUHqDbGb4fcti980mMGDKmXGyx2Uc",
-
-    authDomain: "owlencoder-budget.firebaseapp.com",
-
-    databaseURL: "https://owlencoder-budget-default-rtdb.firebaseio.com",
-
-    projectId: "owlencoder-budget",
-
-    storageBucket: "owlencoder-budget.appspot.com",
-
-    messagingSenderId: "834523685952",
-
-    appId: "1:834523685952:web:20c49b95a579e135b52ba5",
-
-    measurementId: "G-67WZ6CNDYV"
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_PROJECT_ID.appspot.com",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID",
+    measurementId: "YOUR_MEASUREMENT_ID"
 
 };
 
